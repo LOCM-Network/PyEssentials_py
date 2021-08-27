@@ -1,7 +1,6 @@
 from cn.nukkit.plugin import PluginBase
 from cn.nukkit import Player
 from cn.nukkit import Server
-
 join = "%player% join"
 quit = "%player% quit"
 can_fly_hub = False
@@ -45,10 +44,10 @@ class PyEssentials(PluginBase):
 			else:
 				sender.getInventory().clearAll()
 		if cmd == "kickall":
-			for player in self.getServer().getServer().getOnlinePlayers().values():
+			for player in self.getServer().getOnlinePlayers().values():
 				player.kick("Kicked from the server", False)
 		if cmd == "tpall":
-			for player in self.getServer().getServer().getOnlinePlayers().values():
+			for player in self.getServer().getOnlinePlayers().values():
 				player.sendMessage("Teleport to " + sender.getName())
 				player.teleport(sender)
 		if cmd == "clearchat":

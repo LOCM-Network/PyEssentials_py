@@ -31,3 +31,8 @@ commands:
     description: "clear chat"
   cleargolchat:
     permission: "cleargolchat"
+  testform:
+    description: "anc"
+  clearinv:
+    description: "Clear inventory"
+    permission: "clearinv.command"
