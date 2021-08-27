@@ -1,0 +1,33 @@
+name: PyEssentials
+main: PyEssentials
+author: phuongaz
+version: 1.0
+api: ["1.0.0"]
+commands:
+  hub:
+    description: "hub command"
+  feed:
+    description: "tp accept"
+    permission: "feed.commad"
+  heal:
+    description: "heal command"
+    permission: "heal.command"
+  fly:
+    description: "Toggle fly"
+    permission: "fly.command"
+  kickall:
+    description: "kick all players"
+    permission: "kickall.command"
+  tpall:
+    description: "Teleport all player to you"
+    permission: "tpall.command"
+  gmc:
+    description: "gamemmode 1"
+    permission: "gmc.command"
+  gms:
+    description: "gamemmode 1"
+    permission: "gms.command"
+  clearchat:
+    description: "clear chat"
+  cleargolchat:
+    permission: "cleargolchat"
